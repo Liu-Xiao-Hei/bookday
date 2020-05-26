@@ -1,5 +1,6 @@
 <view class="my">
 
+  <!-- 登陆 -->
   <view class="my-box">
     <view class="my-info">
       <view class="fl my-img">
@@ -16,7 +17,9 @@
       <view class="fl nickname">{{userInfo.nickName}}</view>
     </view>
   </view>
+  <!-- 登陆end -->
 
+  <!-- 记账列表 -->
   <view class="list">
     <view class="list-item" bindtap="goMybill">
       <view class="fl title">我的记账</view>
@@ -25,5 +28,5 @@
       </view>
     </view>
   </view>
-
+  <!-- 记账列表end-->
 </view>

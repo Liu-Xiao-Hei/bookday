@@ -1,8 +1,6 @@
 <view class="mybill">
 
-
   <view class="items">
-
     <view class="item clearfix" wx:for="{{mybillDatas}}" wx:key="index">
       <view class="fl item-icon">
         <image class="auto-img img" src="{{item.icon}}" mode="widthFix"></image>

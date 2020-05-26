@@ -22,8 +22,6 @@
   height: 70rpx;
 }
 
-
-
 .item-content {
   width: calc(100% - 110rpx);
   padding: 0 20rpx 20rpx;
